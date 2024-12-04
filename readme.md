@@ -10,6 +10,23 @@ This file reproduces the experimental results on attacking the medical SAM. Most
 python  run_attacks.py
 ```
 
+Please modify the hyperparameters in the** run_attacks.py** documents for utilization. As the meta-initialization learning process is time-consuming, we suggest using the UMI provided by us.
+
+You try different basic attack strategies and combine them with ours by adjusting "methods = ['MI-FGSM']" and "UMI_GRs=[1]" in **run_attacks.py**
+
+
+If you find this code helpful, please consider citing:
+
+```
+@inproceedings{
+xia2024transferable,
+title={Transferable Adversarial Attacks on {SAM} and Its Downstream Models},
+author={Song Xia and Wenhan Yang and Yi Yu and Xun Lin and Henghui Ding and LINGYU DUAN and Xudong Jiang},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=yDjojeIWO9}
+}
+```
 
 If you find this code helpful, please consider citing:
 
