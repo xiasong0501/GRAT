@@ -14,6 +14,7 @@ Please modify the hyperparameters in the** run_attacks.py** documents for utiliz
 
 You try different basic attack strategies and combine them with ours by adjusting "methods = ['MI-FGSM']" and "UMI_GRs=[1]" in **run_attacks.py**
 
+We will update the adversarial attacks on Camouflaged and Shadow SAM later. 
 
 If you find this code helpful, please consider citing:
 
