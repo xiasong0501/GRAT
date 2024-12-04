@@ -27,16 +27,3 @@ year={2024},
 url={https://openreview.net/forum?id=yDjojeIWO9}
 }
 ```
-
-If you find this code helpful, please consider citing:
-
-```
-@inproceedings{
-xia2024transferable,
-title={Transferable Adversarial Attacks on {SAM} and Its Downstream Models},
-author={Song Xia and Wenhan Yang and Yi Yu and Xun Lin and Henghui Ding and LINGYU DUAN and Xudong Jiang},
-booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
-year={2024},
-url={https://openreview.net/forum?id=yDjojeIWO9}
-}
-```
