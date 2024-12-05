@@ -70,7 +70,7 @@ for mul_modedl in mul_modedls:
                                         --UMI_GR {UMI_GR} --sftm_hpyer {sftm_hpyer} --noise_path {noise_path} --att_step_size {att_step_size} --att_bound {att_bound} --dir_search {0} --att_numstep {att_numstep} --random_seed {random_seed}"
                                     if method == 'MI-FGSM':
                                         outpath= 'testset/advimages_baselines/MI-FGSM'+str(UMI_GR)+'/'
-                                        command_gen = f"CUDA_VISIBLE_DEVICES={device} python Sam_attack.py --test_batch {'case0008'} --out_path {outpath}  --noise_sd {noise_sd} --smoothed_momentum {smoothed_momentum} \
+                                        command_gen = f"CUDA_VISIBLE_DEVICES={device} python Sam_attack.py --out_path {outpath}  --noise_sd {noise_sd} --smoothed_momentum {smoothed_momentum} \
                                         --UMI_GR {UMI_GR} --sftm_hpyer {sftm_hpyer} --noise_path {noise_path} --att_step_size {att_step_size} --att_bound {att_bound} --dir_search {0} --att_numstep {att_numstep} --random_seed {random_seed}"
                                         # subprocess.run(command_gen, shell=True)
                                     if method == 'DMI-FGSM':
@@ -110,7 +110,7 @@ for mul_modedl in mul_modedls:
 
                                         
                                         exp_name= noise_path+'_'+method+'_umi_gr'+str(UMI_GR)
-                                        test_command = f"CUDA_VISIBLE_DEVICES={device} python test_adv_all.py --is_savenii --test_batch {'case0008'} --out_path {outpath} --noise_sd {noise_sd} --smoothed_momentum {smoothed_momentum}\
+                                        test_command = f"CUDA_VISIBLE_DEVICES={device} python test_adv_all.py --is_savenii --out_path {outpath} --noise_sd {noise_sd} --smoothed_momentum {smoothed_momentum}\
                                         --smoothed_freq {UMI_GR} --sftm_hpyer {sftm_hpyer} --noise_path {exp_name} --att_step_size {att_step_size} --att_bound {att_bound} --att_numstep {att_numstep} --lora_ckpt {lora_ckpt}"
                                         subprocess.run(test_command, shell=True)
                                         
