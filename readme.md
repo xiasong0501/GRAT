@@ -16,7 +16,7 @@ As the learning process of meta-initialization is time-consuming, we suggest usi
 
 You try different basic attack strategies and combine them with ours by adjusting "methods = ['MI-FGSM']" (replace MI-FGSM with different methods we mentioned in the file) and "UMI_GRs=[1]" (change 1 to 0 to run attacks without our method)  in **run_attacks.py**
 
-###### Acknowledgement: Most codes for training and evaluating the [Medical SAM](https://github.com/hitachinsk/SAMed) come from SAMed by [hitachinsk](https://github.com/hitachinsk).
+#### Acknowledgement: Most codes for training and evaluating the [Medical SAM](https://github.com/hitachinsk/SAMed) come from SAMed by [hitachinsk](https://github.com/hitachinsk).
 
 
 
