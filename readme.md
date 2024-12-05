@@ -12,7 +12,7 @@ python run_attacks.py
 
 Please modify the hyperparameters in the **run_attacks.py** documents for running different experimental settings.
 
-As the learning process of meta-initialization is time-consuming, we suggest using the UMI we provided (where we put it in the omm_perb folder).
+As the learning process of meta-initialization is time-consuming, we suggest using the UMI we provided (where we put it in the common_perb folder).
 
 You try different basic attack strategies and combine them with ours by adjusting "methods = ['MI-FGSM']" (replace MI-FGSM with different methods we mentioned in the file) and "UMI_GRs=[1]" (change 1 to 0 to run attacks without our method)  in **run_attacks.py**
 
