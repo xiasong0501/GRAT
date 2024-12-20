@@ -18,7 +18,7 @@ You try different basic attack strategies and combine them with ours by adjustin
 
 #### Acknowledgement: Most codes for training and evaluating the [Medical SAM](https://github.com/hitachinsk/SAMed) come from SAMed by [hitachinsk](https://github.com/hitachinsk).
 
-
+We will tidy up codes for attacking camouflaged and shadow SAM soon. Please feel free to email me if there is an urgent need. 
 
 If you find this code helpful, please consider citing:
 
