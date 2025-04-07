@@ -289,8 +289,8 @@ db_config=dataset_config[dataset_name]
 db_test = db_config['Dataset'](base_dir=args.volume_path, list_dir=args.list_dir, split='test_vol')
 testloader = DataLoader(db_test, batch_size=1, shuffle=False, num_workers=4)
 
-data_org = load_and_transform_images('images-100')
-data_org=data_org.cuda()
+# data_org = load_and_transform_images('images-100')
+# data_org=data_org.cuda()
 
 
 
